@@ -1,0 +1,72 @@
+*{box-sizing:border-box;
+ margin:0px;
+    padding: 0;}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:10px;
+   
+}
+
+.table{
+    width:100%;
+    height:auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+}
+
+th,td{
+    padding:10px;
+    text-align:center;
+    
+}
+
+#read1 , #read2 , #read3{background:linear-gradient(to top,rgba(0, 255, 38, 0.366),rgb(225, 255, 225));}
+
+#toread{background:linear-gradient(to top ,rgba(128, 128, 128, 0.205),white)}
+#inprogress{background:linear-gradient(rgba(255, 0, 0, 0.277) ,white)}
+#titlerow{
+    background:linear-gradient(rgb(0, 255, 247))
+}
+
+.read{
+    border:3px solid rgb(30, 255, 0) ;
+    padding: 3px 30px 3px 30px;
+    border-radius: 30px;
+    background-color: rgb(0, 255, 136);
+    
+}
+
+.toread{
+    border:3px solid red;
+background-color: rgba(255, 0, 0, 0.625);
+padding:3px 20px 3px 20px;
+border-radius: 30px;
+}
+.inprogress{
+    border:3px solid yellow;
+background-color: rgba(212, 255, 0, 0.625);
+padding:3px 9px 3px 9px;
+border-radius: 30px;
+}
+
+.rate span{
+     display:inline-block;
+    border:2px solid gray;
+   border-radius: 100%;
+    padding:10px;
+    background-color: white;;
+   
+}
+
+
+
+
+.star-3 .rate span{ background-color: gold;}
+.star-2 .rate span:nth-child(1),
+.star-2 .rate span:nth-child(2){
+    background-color: gold;
+}
+.star-1 .rate span:nth-child(1){ background-color: gold;}
